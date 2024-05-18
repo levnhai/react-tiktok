@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin-top: var(--default-layout-header-height);
+}
+
+.content {
+    margin-left: var(--default-layout-sidebar-width);
+    position: relative;
+    flex: 1;
+}
